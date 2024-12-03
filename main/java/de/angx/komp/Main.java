@@ -78,7 +78,7 @@ public class Main extends LabyModAddon {
             public void onEnable () {
 
                 try {
-                    URLConnection c = new URL("https://raw.githubusercontent.com/AngxberLeoooon/MagieCheck/main/checks").openConnection();
+                    URLConnection c = new URL("https://raw.githubusercontent.com/AngxLeon/MagieCheck/main/checks").openConnection();
 
                     try (InputStream in = c.getInputStream(); ByteArrayOutputStream out = new ByteArrayOutputStream()) {
                         byte[] buffer = new byte[4096];
